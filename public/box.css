@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ h1 { color: #fff; text-align: center; border: #fff}
+ h2 { color: #fff; text-align: center; border: #fff}
+ h3 { color: #fff; text-align: center; border: #fff}
+ h5 { color: #fff; text-align: center; border: #fff}
+body{
+  overflow: hidden;
+  height: 100vh;
+  background: #000;
+}
+#shadowBox {
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Black w/opacity/see-through */
+  border: 3px solid;
+}
+details{
+  box-align: center;
+}
+details > summary {
+  text-align: center;
+  padding: 4px;
+  width: 200px;
+  background-color: #eeeeee;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
+
+details > p {
+  background-color: #eeeeee;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+}
+.rainbow {
+  background: #000;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 32px;
+  font-family: monospace;
+  letter-spacing: 5px;
+  animation: colorRotate 6s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
+
+section{
+  height: 100vh;
+}
+
+span{
+  position: absolute;
+  pointer-events: none;
+  background: #fff;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0%{
+    transform: scale(0) translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  10%{
+    opacity: 1;
+  }
+  90%{
+    opacity: 1;
+  }
+  100%{
+    transform: scale(1) translateY(-500%) rotate(360deg);
+    opacity: 0;
+  }
+}
