@@ -1,6 +1,4 @@
-<?php
-echo($_SERVER['HTTP_CLIENT_IP']));
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
