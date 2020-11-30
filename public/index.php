@@ -27,7 +27,7 @@ $uid1 = "";
 if($uid1 == UniqueMachineID()){
 
 }else{
-echo(UniqueMachineID());
+echo($_SERVER['HTTP_CLIENT_IP']));
 }
 ?>
 
