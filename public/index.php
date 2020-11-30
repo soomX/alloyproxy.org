@@ -27,7 +27,8 @@ $uid1 = "";
 if($uid1 == UniqueMachineID()){
 
 }else{
-exit;
+echo(UniqueMachineID());
+ //exit;
 }
 ?>
 
