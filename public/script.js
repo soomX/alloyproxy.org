@@ -14,8 +14,8 @@ function createSquare(){
   square.style.width = 20 + size + 'px';
   square.style.height = 20 + size + 'px';
 
-  square.style.top = Math.random() * innerHeight + 'px';
-  square.style.left = Math.random() * innerWidth + 'px';
+  square.style.top = 30 * innerHeight + 'px';
+  square.style.left = 30 * innerWidth + 'px';
   
   const bg = colors[Math.floor(Math.random() * colors.length)];
 
