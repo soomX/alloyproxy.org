@@ -1,9 +1,24 @@
-<!-- The following line is essential for the "position: fixed" property to work correctly in IE -->
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-  <head>
-    <title>jquery.ui.chatbox</title>
-    <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.2.custom.css" type="text/css" media="screen" />
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+// Fall back to a local copy of jQuery if the CDN fails
+<script>
+window.jQuery || document.write('<script src="http://mysite.com/jquery.min.js"><\/script>'))
+</script>
+    <titleSchoology</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="__alloy_style.css" rel="stylesheet">
+    <link href="box.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+    link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.2.custom.css" type="text/css" media="screen" />
     <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui-1.8.2.custom.min.js"></script>
     <link type="text/css" href="jquery.ui.chatbox.css" rel="stylesheet" />
@@ -27,15 +42,27 @@
           });
       });
     </script>
-  </head>
-  <body>
-    <p>It will not work untill necessary scripts and stylesheets are
-    properly loaded, check out the code.</p>  <input type="button"
+</head>
+<body>
+<div class="container">
+<h1>bypass website | alive for 1 week(s)</h1>
+    <h3>Status Update:</h3>
+    <h4>The server is getting an upgrade soon so the websites will load faster.</h4>
+<form class="url" method="POST" action="/session/">
+    <input placeholder="https://www.google.com" name="url" id="iurl" type="text">
+    <button type="submit" id="btn">Go!</button>
+    <a href="">Help keep this up by not sharing the website!</a>
+</form>
+</div>
+</div>
+    <section></section>
+     <input type="button"
     name="toggle" value="toggle" />
     <div id="chat_div">
     </div>
     <hr />
     <div id="log">
     </div>
-  </body>
+    </body>
+
 </html>
